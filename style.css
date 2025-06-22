@@ -60,3 +60,7 @@ h1, h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
+
+#total {
+    font-weight: bold;
+}
