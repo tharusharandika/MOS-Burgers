@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOS Burgers</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Pacifico&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Pacifico&family=Open+Sans:wght@400;600&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">MOS Burgers</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,7 +32,141 @@
         </div>
     </nav>
 
+    <div class="container mt-4" id="menu">
+        <h1 class="text-center mb-4">Our Menu</h1>
+        <div id="burgers" class="category-header">
+            <img src="Burgers/burger.jpg" alt="Burgers" class="category-image">
+            Burgers
+        </div>
+        <div id="burgers-items" class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card menu-item">
+                    <img src="Burgers/classicBurger.webp" class="card-img-top item-image" alt="Classic Burger (Large)">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Burger (Large) (Code: B1001)</h5>
+                        <p class="card-text">Price: 750.00 LKR</p>
+                        <p class="card-text">Discount: 0%</p>
+                        <button class="btn btn-primary add-to-cart" data-code="B1001" data-price="750.00"
+                            data-discount="0">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card menu-item">
+                    <img src="Burgers/classicBurger.webp" class="card-img-top item-image"
+                        alt="Classic Burger (Regular)">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Burger (Regular) (Code: B1002)</h5>
+                        <p class="card-text">Price: 1500.00 LKR</p>
+                        <p class="card-text">Discount: 15%</p>
+                        <button class="btn btn-primary add-to-cart" data-code="B1002" data-price="1500.00"
+                            data-discount="15">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card menu-item">
+                    <img src="Burgers/turkeyBurger.jpg" class="card-img-top item-image" alt="Turkey Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Turkey Burger (Code: B1003)</h5>
+                        <p class="card-text">Price: 1600.00 LKR</p>
+                        <p class="card-text">Discount: 0%</p>
+                        <button class="btn btn-primary add-to-cart" data-code="B1003" data-price="1600.00"
+                            data-discount="0">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card menu-item">
+                    <img src="Burgers/chickenBurger.webp" class="card-img-top item-image" alt="Chicken Burger (Large)">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Burger (Large) (Code: B1004)</h5>
+                        <p class="card-text">Price: 1400.00 LKR</p>
+                        <p class="card-text">Discount: 0%</p>
+                        <button class="btn btn-primary add-to-cart" data-code="B1004" data-price="1400.00"
+                            data-discount="0">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card menu-item">
+                    <img src="Burgers/chickenBurger.webp" class="card-img-top item-image"
+                        alt="Chicken Burger (Regular)">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Burger (Regular) (Code: B1005)</h5>
+                        <p class="card-text">Price: 800.00 LKR</p>
+                        <p class="card-text">Discount: 20%</p>
+                        <button class="btn btn-primary add-to-cart" data-code="B1005" data-price="800.00"
+                            data-discount="20">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card menu-item">
+                    <img src="Burgers/cheeseBurger.webp" class="card-img-top item-image" alt="Cheese Burger (Large)">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheese Burger (Large) (Code: B1006)</h5>
+                        <p class="card-text">Price: 1000.00 LKR</p>
+                        <p class="card-text">Discount: 0%</p>
+                        <button class="btn btn-primary add-to-cart" data-code="B1006" data-price="1000.00"
+                            data-discount="0">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card menu-item">
+                    <img src="Burgers/cheeseBurger.webp" class="card-img-top item-image" alt="Cheese Burger (Regular)">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheese Burger (Regular) (Code: B1007)</h5>
+                        <p class="card-text">Price: 600.00 LKR</p>
+                        <p class="card-text">Discount: 0%</p>
+                        <button class="btn btn-primary add-to-cart" data-code="B1007" data-price="600.00"
+                            data-discount="0">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card menu-item">
+                    <img src="Burgers/baconBurger.jpg" class="card-img-top item-image" alt="Bacon Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Bacon Burger (Code: B1008)</h5>
+                        <p class="card-text">Price: 650.00 LKR</p>
+                        <p class="card-text">Discount: 15%</p>
+                        <button class="btn btn-primary add-to-cart" data-code="B1008" data-price="650.00"
+                            data-discount="15">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card menu-item">
+                    <img src="Burgers/shawarmaBurger.jpg" class="card-img-top item-image" alt="Shawarma Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Shawarma Burger (Code: B1009)</h5>
+                        <p class="card-text">Price: 800.00 LKR</p>
+                        <p class="card-text">Discount: 0%</p>
+                        <button class="btn btn-primary add-to-cart" data-code="B1009" data-price="800.00"
+                            data-discount="0">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card menu-item">
+                    <img src="Burgers/oliveBurger.jpg" class="card-img-top item-image" alt="Olive Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Olive Burger (Code: B1010)</h5>
+                        <p class="card-text">Price: 1800.00 LKR</p>
+                        <p class="card-text">Discount: 0%</p>
+                        <button class="btn btn-primary add-to-cart" data-code="B1010" data-price="1800.00"
+                            data-discount="0">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="app.js"></script>
 </body>
+
 </html>
