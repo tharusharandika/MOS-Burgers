@@ -49,3 +49,14 @@ body {
 h1, h2 {
     font-family: 'Pacifico', cursive;
 }
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+#cart-section {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
